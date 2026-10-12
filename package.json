@@ -1,0 +1,12 @@
+{
+  "name": "orbit-chat",
+  "version": "1.5.0",
+  "private": true,
+  "description": "Orbit browser extension. Local development helpers only; the extension itself has no build step.",
+  "scripts": {
+    "peer-server": "peerjs --port 9000 --key peerjs --path /"
+  },
+  "devDependencies": {
+    "peer": "1.0.2"
+  }
+}
